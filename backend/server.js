@@ -9,7 +9,14 @@ dotenv.config()
 
 const app = express()
 
-app.use(cors({ origin: "*" }))
+app.use(
+  cors({
+    origin: ["https://earnest-banoffee-35b05a.netlify.app"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: false,
+  })
+)
+
 
 app.use(express.json())
 
