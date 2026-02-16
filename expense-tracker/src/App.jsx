@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react"
 import "./App.css"
-const EXPENSE_API = "http://localhost:5000/api/expenses"
-const BUDGET_API = "http://localhost:5000/api/budget"
+const EXPENSE_API = "https://expense-tracker-api-kfw6.onrender.com/api/expenses"
+const BUDGET_API = "https://expense-tracker-api-kfw6.onrender.com/api/budget"
 
 const CATEGORY_OPTIONS = ["Food", "Travel", "Shopping", "Bills", "Education", "Health", "Other"]
 
